@@ -24,7 +24,8 @@ public enum StreamRuleType {
     REGEX(2, "match regular expression", "match regular expression"),
     GREATER(3, "greater than", "be greater than"),
     SMALLER(4, "smaller than", "be smaller than"),
-    PRESENCE(5, "field presence", "be present");
+    PRESENCE(5, "field presence", "be present"),
+    ALWAYS_MATCH(6, "always match", "always match");
 
     private final int value;
     private final String shortDesc;
